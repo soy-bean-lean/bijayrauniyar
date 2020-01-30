@@ -1,0 +1,25 @@
+$font-stack: Roboto Mono, Roboto;
+$primary-color: #333;
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+
+  .skills {
+    &:hover {
+      background-color: blueviolet;
+    }
+  }
+  .downbg {
+    position: relative;
+    &:after {
+      content: "";
+      background: yellow;
+      height: 30px;
+      width: 120px;
+      position: absolute;
+      left: 0;
+      top: 27px;
+      z-index: -1;
+    }
+  }
+}

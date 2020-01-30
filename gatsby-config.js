@@ -6,6 +6,24 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
+    // Add typescript stack into webpack
+    `gatsby-plugin-typescript`,
+    {
+     resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Roboto Mono`,
+            variants: [`400`, `700`]
+          },
+          {
+            family: `Roboto`,
+            subsets: [`latin`]
+          },
+        ],
+      }},
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
