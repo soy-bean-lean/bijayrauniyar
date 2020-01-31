@@ -66,22 +66,22 @@ const IndexPage = () => (
       <hr></hr>
       <div>
         <Link className="mr-3 ml-2 " to="/#">
-          <FontAwesomeIcon size="2x" icon={faFacebook} />
+          <FontAwesomeIcon size="1x" icon={faFacebook} />
         </Link>
         <Link className="mr-3 ml-2" to="/#">
-          <FontAwesomeIcon size="2x" icon={faGoogle} />
+          <FontAwesomeIcon size="1x" icon={faGoogle} />
         </Link>
         <Link className="mr-3 ml-2" to="/#">
-          <FontAwesomeIcon size="2x" icon={faGithub} />
+          <FontAwesomeIcon size="1x" icon={faGithub} />
         </Link>
         <Link className="mr-3 ml-2" to="/#">
-          <FontAwesomeIcon size="2x" icon={faLinkedin} />
+          <FontAwesomeIcon size="1x" icon={faLinkedin} />
         </Link>
         <Link className="mr-3 ml-2 " to="/#">
-          <FontAwesomeIcon size="2x" icon={faInstagram} />
+          <FontAwesomeIcon size="1x" icon={faInstagram} />
         </Link>
         <Link className="mr-3 ml-2 " to="/#">
-          <FontAwesomeIcon size="2x" icon={faTwitter} />
+          <FontAwesomeIcon size="1x" icon={faTwitter} />
         </Link>
       </div>
     </footer>
