@@ -15,7 +15,7 @@ interface templateProps {
 
 export default function Template(props: templateProps) {
   console.log(props)
-  const { markdownRemark } = props.data // data.markdownRemark holds your post data
+  const { markdownRemark } = props.data
   const { frontmatter, html } = markdownRemark
   return (
     <div className="blog-post-container">
