@@ -65,23 +65,23 @@ const IndexPage = () => (
       <p>Fllow me on social media</p>
       <hr></hr>
       <div>
-        <Link className="mr-3 ml-2 " to="/socialauth">
-          <FontAwesomeIcon icon={faFacebook} />
+        <Link className="mr-3 ml-2 " to="/#">
+          <FontAwesomeIcon size="2x" icon={faFacebook} />
         </Link>
-        <Link className="mr-3 ml-2 " to="/socialauth">
-          <FontAwesomeIcon icon={faGoogle} />
+        <Link className="mr-3 ml-2" to="/#">
+          <FontAwesomeIcon size="2x" icon={faGoogle} />
         </Link>
-        <Link className="mr-3 ml-2 " to="/socialauth">
-          <FontAwesomeIcon icon={faGithub} />
+        <Link className="mr-3 ml-2" to="/#">
+          <FontAwesomeIcon size="2x" icon={faGithub} />
         </Link>
-        <Link className="mr-3 ml-2 " to="/socialauth">
-          <FontAwesomeIcon icon={faLinkedin} />
+        <Link className="mr-3 ml-2" to="/#">
+          <FontAwesomeIcon size="2x" icon={faLinkedin} />
         </Link>
-        <Link className="mr-3 ml-2 " to="/socialauth">
-          <FontAwesomeIcon icon={faInstagram} />
+        <Link className="mr-3 ml-2 " to="/#">
+          <FontAwesomeIcon size="2x" icon={faInstagram} />
         </Link>
-        <Link className="mr-3 ml-2 " to="/socialauth">
-          <FontAwesomeIcon icon={faTwitter} />
+        <Link className="mr-3 ml-2 " to="/#">
+          <FontAwesomeIcon size="2x" icon={faTwitter} />
         </Link>
       </div>
     </footer>
