@@ -10,6 +10,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Header } from "./header"
 import "./layout.scss"
+import { Container, Nav, Badge, Button, Row, Col } from "react-bootstrap"
 
 interface LayoutProps {
   children: any
@@ -17,19 +18,10 @@ interface LayoutProps {
 
 function Layout(props: LayoutProps) {
   return (
-    <div>
-      {/* <Header /> */}
-      {/* <div
-        style={{
-          margin: "0 auto",
-          maxWidth: 960,
-          padding: "0px 1.0875rem 1.45rem",
-          paddingTop: 0,
-        }}
-      > */}
+    <Container>
+      <Header />
       {props.children}
-      {/* </div> */}
-    </div>
+    </Container>
   )
 }
 

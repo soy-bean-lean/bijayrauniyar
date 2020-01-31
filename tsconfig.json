@@ -5,6 +5,10 @@
     "noImplicitAny": true,
     "module": "commonjs",
     "target": "esnext",
+    "strict": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
     "jsx": "react",
     "lib": ["dom", "es2015", "es2017"]
   },
