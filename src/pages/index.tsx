@@ -12,25 +12,6 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-//import { IntlProvider, FormattedMessage } from "react-intl"
-
-// const Intl = () => (
-//   <p>
-//     <FormattedMessage
-//       id="welcome"
-//       defaultMessage={`Hello {name}, you have {unreadCount, number} {unreadCount, plural,
-//                       one {message}
-//                       other {messages}
-//                     }`}
-//       values={{ name: <b>bijay</b>, unreadCount: 1000 }}
-//     />
-//   </p>
-// )
-// {
-//   /* <IntlProvider locale="np">
-//   <Intl></Intl>
-// </IntlProvider> */
-// }
 
 const IndexPage = () => (
   <Layout>

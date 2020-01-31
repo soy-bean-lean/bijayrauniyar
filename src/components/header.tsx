@@ -24,7 +24,9 @@ export const Header = () => (
         </Nav.Item>
 
         <Nav.Item>
-          <Nav.Link eventKey="blog">My Blog</Nav.Link>
+          <Nav.Link href="/blog/my-first-post" eventKey="blog">
+            My Blog
+          </Nav.Link>
         </Nav.Item>
       </Nav>
     </Row>
